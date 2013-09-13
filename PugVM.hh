@@ -84,6 +84,7 @@ namespace PugVM {
         Exit
     };
 
+    inline
     std::ostream& operator<< (std::ostream &os, Operation op) {
         switch (op) {
         case PushFloat: return os << "PushFloat";
